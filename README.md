@@ -10,7 +10,7 @@ Easy way to monitor your network API calls
 ### content of the http log
 When making an http request, user sends input information `method, headers, ...` then they expect to receive output information `requested payload, status, ...`, So Final check requires all logs to have these key pieces of information. 
 
-Below is a sample of required attributes in order for a log to be considered valid.
+Below is an interface with all required attributes in order for a log to be considered valid.
 ```javascript
 { 
   url: string,
