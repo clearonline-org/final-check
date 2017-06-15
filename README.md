@@ -23,9 +23,9 @@ This project is about monitoring **http requests** because of past expiriences (
 This project uses the *microservice* architecture because of it has been proven to be scalable and cost effective.
 
 This project has three parts:
-* The Log collecting plugins: middleware/addons that a developer integrate into their app.
-* The frontend dashboard: where developers view the logs and configure notifications.
-* The backend: a list of serverless functions that *store* and *analyse* the logs
+* [The Log collecting plugins](https://github.com/clearonline-org/final-check/blob/master/LOGGER_PLUGINS.md): middleware/addons that a developer integrate into their app.
+* [The frontend dashboard](https://github.com/clearonline-org/final-check/blob/master/FRONTEND.md): where developers view the logs and configure notifications.
+* [The backend](https://github.com/clearonline-org/final-check/blob/master/BACKEND.md): a list of serverless functions that *store* and *analyse* the logs
 
 # Protocol
 ### content of the http log
