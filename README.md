@@ -48,5 +48,5 @@ Below is an interface with all required attributes in order for a log to be cons
      status: string
   }
   latency: number 
- }
+}
 ```
