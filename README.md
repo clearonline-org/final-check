@@ -32,7 +32,7 @@ This project has three parts:
 When making an http request, user sends input information `method, headers, ...` then they expect to receive output information `requested payload, status, ...`, So Final check requires all logs to have these key pieces of information. 
 
 Below is an interface with all required attributes in order for a log to be considered valid.
-```javascript
+```typescript
 { 
   url: string,
   request: { 
