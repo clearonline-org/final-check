@@ -15,6 +15,12 @@ NOTE:
 * corrupting = sending fake data to the real user on behalf of the app.
 * corrupting = trying to request data from the app, that do not belong to them
 
+# Design
+The name **Final check** was chosen because the *project's intended purpose* is, to provide clarity on how the developer's final product is performing. I.e. monitor what the app does after all development work is complete.
+
+This project is about monitoring **http requests** because of past expiriences (through work and personal projects). I.e. this is the place where most of developers have trouble knowing what is going on (and it always feels good if *You know why a software is malfunctioning* just in case the boss asks why).
+
+This project uses the *microservice* architecture because of it has been proven to be scalable and cost effective.
 
 # Protocol
 ### content of the http log
