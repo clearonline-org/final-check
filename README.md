@@ -22,6 +22,11 @@ This project is about monitoring **http requests** because of past expiriences (
 
 This project uses the *microservice* architecture because of it has been proven to be scalable and cost effective.
 
+This project has three parts:
+* The Log collecting plugins: middleware/addons that a developer integrate into their app.
+* The frontend dashboard: where developers view the logs and configure notifications.
+* The backend: a list of serverless functions that *store* and *analyse* the logs
+
 # Protocol
 ### content of the http log
 When making an http request, user sends input information `method, headers, ...` then they expect to receive output information `requested payload, status, ...`, So Final check requires all logs to have these key pieces of information. 
