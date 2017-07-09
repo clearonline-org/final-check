@@ -1,6 +1,11 @@
 # Final check
 Easy way to monitor your network API calls
 
+# End Goal
+* Three parties **System**(HTTP Accessible), **Good User**, **Bad User**
+* We want to find out whether the **System** is providing *correct information* to the **Good User**
+* We want to find out whether the **System** is providing *right error messages* to the **Bad User**
+
 # Philosophy
 Most of software developers strive to write code that provide value to their *intended* end users. In most cases, this works well for *offline applications* because the developer don't have to worry about these *unintended* users corrupting their apps. And this "corruption" is very frequent for network application.
 
