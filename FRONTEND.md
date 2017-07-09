@@ -1,6 +1,6 @@
 # Frontend
 
-## Final Check os
+## 1. Final Check os
 os for *Open Source*
 
 This is a **Final Check** implementation using `Angular 2` frontend framework and `AWS Cognito` authentication system.
