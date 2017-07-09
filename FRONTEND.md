@@ -40,4 +40,4 @@ It has a simple Application data model
 }
 ```
 
-More Information can be found at the github repo
+More Information can be found at the [Github repo]()
