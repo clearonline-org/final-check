@@ -33,10 +33,23 @@ It has a simple Application data model
 ```javascript
 // api-request: represent the http request log (Final Check log)
 {
+  id: string,
   url: string,
   request: json,
   response: json,
   latency: number
+}
+```
+
+* ApiRequest Origin
+```javascript
+// request-origin: used to display all call origins on a world map
+{
+  ip: string,
+  ipOwner: string,
+  long: string,
+  lat: string,
+  requestCount: number
 }
 ```
 
