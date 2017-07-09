@@ -2,7 +2,7 @@
 Easy way to monitor your network API calls
 
 # End Goal
-* Three parties **System**(HTTP Accessible), **Good User**, **Bad User**
+* Three parties **System**(HTTP Accessible), **Good User**, and **Bad User**
 * We want to find out whether the **System** is providing *correct information* to the **Good User**
 * We want to find out whether the **System** is providing *right error messages* to the **Bad User**
 
