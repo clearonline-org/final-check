@@ -50,7 +50,8 @@ Below is an interface with all required attributes in order for a log to be cons
   respone: { 
      payload: any, // governed by the response content-type header
      headers: { [key: string]: string | number },
-     status: string
+     statusCode: number,
+     status: string // the status message ex: OK, 200 OK, ...
   }
   latency: number 
 }
