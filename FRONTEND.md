@@ -53,4 +53,4 @@ It has a simple Application data model
 }
 ```
 
-More Information can be found at the [Github repo]()
+More Information can be found at the [Github repo](https://github.com/clearonline-org/final-check-os)
