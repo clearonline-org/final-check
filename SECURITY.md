@@ -18,4 +18,4 @@ Encrypt logs using the user's provided credentials
   * Then in turn it uses this private key to decrypt logs.
   * It performs all analysis required, then respond to the user.
 
-![log encryption UML](final-check/http-log encryption.png?raw=true)
+![log encryption UML](https://github.com/clearonline-org/final-check/blob/master/http-log%20encryption.png "Log encryption UML")
