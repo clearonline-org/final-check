@@ -17,3 +17,5 @@ Encrypt logs using the user's provided credentials
 * When user logs into the frontend UI, Final Check system uses their password to decrypt private key,
   * Then in turn it uses this private key to decrypt logs.
   * It performs all analysis required, then respond to the user.
+
+![log encryption UML](images/figure 1-1.png "Figure 1-1")
